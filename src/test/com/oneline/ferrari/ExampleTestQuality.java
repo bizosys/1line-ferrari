@@ -1,15 +1,14 @@
-import com.oneline.ferrari.TestAll;
+package com.oneline.ferrari;
 
 import junit.framework.TestCase;
 import junit.framework.TestFerrari;
 
-
-public class ExampleTest extends TestCase {
+public class ExampleTestQuality extends TestCase {
 	public static String[] modes = new String[] { "all", "random", "method"};
 	public static String mode = modes[0];  
 	
 	public static void main(String[] args) throws Exception {
-		ExampleTest t = new ExampleTest();
+		ExampleTestQuality t = new ExampleTestQuality();
 		
 		if ( modes[0].equals(mode) ) {
 			TestAll.run(new TestCase[]{t});
