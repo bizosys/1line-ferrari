@@ -1,0 +1,2 @@
+Automated testing framework on top of JUnit test cases. It looks into memory usage, thread safety and response time of each test cases. More over if the test cases are parameterized, it will test on internationalization, max,min and boundary values, null values, random values, empty values, special characters and lots of other aspects. 
+1line-ferrari
