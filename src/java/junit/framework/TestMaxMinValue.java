@@ -51,7 +51,7 @@ public class TestMaxMinValue extends TestRandomValue{
 		for (Class param : params) {
 			if ( String.class == param) {
 			} else if (Double.class == param) { 
-				values.get(0)[counter] = Double.MIN_VALUE;
+				values.get(0)[counter] =  Long.MIN_VALUE;
 				values.get(1)[counter] = Double.MAX_VALUE;
 				values.get(2)[counter] = new Double(0);
 				values.get(3)[counter] = new Double(1);
@@ -72,7 +72,7 @@ public class TestMaxMinValue extends TestRandomValue{
 				values.get(4)[counter] = new Integer(-1);
 				neumeric = true;
 			} else if (Float.class == param) { 
-				values.get(0)[counter] = Float.MIN_VALUE;
+				values.get(0)[counter] = Integer.MIN_VALUE;
 				values.get(1)[counter] = Float.MAX_VALUE;
 				values.get(2)[counter] = (float) 0;
 				values.get(3)[counter] = (float) 1;
